@@ -449,8 +449,8 @@ UML — це універсальна мова моделювання, що бу
 _______________________
 ### Використані джерела:
 
-1. <a name="#link1"></a> Г.М. Тарасюк: “Управління проектами”
-2. <a name="#link2"></a> Rational Software White Paper: “Rational Unified Process. Best Practices For Software Development Teams”
+1. <a name="link1"></a> Г.М. Тарасюк: “Управління проектами”
+2. <a name="link2"></a> Rational Software White Paper: “Rational Unified Process. Best Practices For Software Development Teams”
 3.  https://compress.ru/article.aspx?id=9633
 4. https://web.posibnyky.vntu.edu.ua/fksa/4bevz_proektuvannya_programnyh_zasobiv_system_upravlinnya/72.htm
 5. https://www.ibm.com/support/knowledgecenter/SSYMRC_5.0.2/com.ibm.rational.rrm.help.doc/topics/t_create_project.html
@@ -458,7 +458,7 @@ _______________________
 7. https://project.dovidnyk.info/index.php/home/upravlenieproektamiposozdaniyuprogrammnogoobespecheniya/133-glavnye_metriki
 8. https://habr.com/ru/post/148654/
 9. https://spark.ru/startup/newproject/blog/5975/kak-otsenit-progress-vashego-proekta
-10. <a name="#link10"></a> Салливан Эд: “Время - деньги. Создание команды разработчиков программного обеспечения”
+10. <a name="link10"></a> Салливан Эд: “Время - деньги. Создание команды разработчиков программного обеспечения”
 11. https://kislorod.io/prosto-o-slozhnom/20-luchshih-instrumentov-dla-menedzhmenta-projektov/
 12. https://thinkmobiles.com/blog/best-task-management-software/
 13. https://trello.com/about
