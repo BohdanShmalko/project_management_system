@@ -502,20 +502,20 @@ _______________________
 
 1. <a name="link1"></a> Г.М. Тарасюк: “Управління проектами”
 2. <a name="link2"></a> Rational Software White Paper: “Rational Unified Process. Best Practices For Software Development Teams”
-3.  https://compress.ru/article.aspx?id=9633
-4. https://web.posibnyky.vntu.edu.ua/fksa/4bevz_proektuvannya_programnyh_zasobiv_system_upravlinnya/72.htm
-5. https://www.ibm.com/support/knowledgecenter/SSYMRC_5.0.2/com.ibm.rational.rrm.help.doc/topics/t_create_project.html
-6. https://www.ibm.com/support/knowledgecenter/SSYMRC_5.0.2/com.ibm.rational.rrm.help.doc/topics/c_artifacttype.html
-7. https://project.dovidnyk.info/index.php/home/upravlenieproektamiposozdaniyuprogrammnogoobespecheniya/133-glavnye_metriki
-8. https://habr.com/ru/post/148654/
-9. https://spark.ru/startup/newproject/blog/5975/kak-otsenit-progress-vashego-proekta
+3. ["Методологии разработки программного обеспечения" (16.02.2020)](https://compress.ru/article.aspx?id=9633)
+4. ["Проектування програмних засобів систем управління" (16.02.2020)](https://web.posibnyky.vntu.edu.ua/fksa/4bevz_proektuvannya_programnyh_zasobiv_system_upravlinnya/72.htm)
+5. [IBM Knowledge Center - Creating requirements projects (16.02.2020)](https://www.ibm.com/support/knowledgecenter/SSYMRC_5.0.2/com.ibm.rational.rrm.help.doc/topics/t_create_project.html)
+6. [IBM Knowledge Center - Artifact types in requirements projects (16.02.2020)](https://www.ibm.com/support/knowledgecenter/SSYMRC_5.0.2/com.ibm.rational.rrm.help.doc/topics/c_artifacttype.html)
+7. ["Управление проектами по созданию программного обеспечения" (16.02.2020)](https://project.dovidnyk.info/index.php/home/upravlenieproektamiposozdaniyuprogrammnogoobespecheniya/133-glavnye_metriki)
+8. ["Метрики в проектах по разработке ПО" - Habr.com (16.02.2020)](https://habr.com/ru/post/148654/)
+9. ["Как оценить прогресс вашего проекта" - spark.ru (16.02.2020)](https://spark.ru/startup/newproject/blog/5975/kak-otsenit-progress-vashego-proekta)
 10. <a name="link10"></a> Салливан Эд: “Время - деньги. Создание команды разработчиков программного обеспечения”
-11. https://kislorod.io/prosto-o-slozhnom/20-luchshih-instrumentov-dla-menedzhmenta-projektov/
-12. https://thinkmobiles.com/blog/best-task-management-software/
-13. https://trello.com/about
-14. https://asana.com/company
-15. https://basecamp.com/about
-16. https://github.com/
-17. https://ganttpro.com/why-us-ganttpro/
-18. https://www.proofhub.com/features
-19. https://quire.io
+11. ["20 лучших инструментов для менеджмента проектов" (16.02.2020)](https://kislorod.io/prosto-o-slozhnom/20-luchshih-instrumentov-dla-menedzhmenta-projektov/)
+12. ["Top-10 task management software" (16.02.2020)](https://thinkmobiles.com/blog/best-task-management-software/)
+13. [Trello - About Page (16.02.2020)](https://trello.com/about)
+14. [Asana - About Page (16.02.2020)](https://asana.com/company)
+15. [Basecamp - About Page (16.02.2020)](https://basecamp.com/about)
+16. [GitHub - Main Page (16.02.2020)](https://github.com/)
+17. [Ganttpro - About Page (16.02.2020)](https://ganttpro.com/why-us-ganttpro/)
+18. [Phoofhub - About Page (16.02.2020)](https://www.proofhub.com/features)
+19. [Quire - Main Page (16.02.2020)](https://quire.io)
