@@ -465,8 +465,9 @@ UML — це універсальна мова моделювання, що бу
 | [GаnntPRO](https://ganttpro.com/why-us-ganttpro/) (70$)               | +/-                                | +       | +             | +       | -                  | +                         |
 | [ProofHub](https://www.proofhub.com/features) (45$/89$)           | +/-                                | +       | +             | +       | -(+)               | +                         |
 | [Quire](https://quire.io) (безкоштовно)                 | -                                  | +       | +             | -       | -                  | +                         |
-[Посилання на джерело з таблицею [12]](https://thinkmobiles.com/blog/best-task-management-software/)
 
+
+[Посилання на джерело з таблицею [12]](https://thinkmobiles.com/blog/best-task-management-software/)
 <a name = "c7.2" ></a>
 **Особливості представників області:**
 
