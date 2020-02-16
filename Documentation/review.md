@@ -81,8 +81,7 @@ RUP надає структурований підхід до ітераційн
 
 6.	Deployment (впровадження) - передбачає установку продукту на полігоні замовника, підготовку персоналу, запуск системи, а також випробування, підготовка стандартів упаковки і поширення продукту, передача матеріалів відділу продажів.
 
-
-[![iterative development](https://www.toolshero.com/wp-content/uploads/2019/07/rational-unified-process-rup-example-toolshero.jpg)](https://www.toolshero.com/information-technology/rational-unified-process-rup/)
+<a href = "https://www.toolshero.com/information-technology/rational-unified-process-rup/" target="_blank">![iterative development](https://www.toolshero.com/wp-content/uploads/2019/07/rational-unified-process-rup-example-toolshero.jpg)</a>
 
 **Графічне відображення** ітерацій життєвого циклу ПЗ:
 
@@ -468,6 +467,7 @@ UML — це універсальна мова моделювання, що бу
 
 
 [Посилання на джерело з таблицею [12]](https://thinkmobiles.com/blog/best-task-management-software/)
+
 <a name = "c7.2" ></a>
 **Особливості представників області:**
 
