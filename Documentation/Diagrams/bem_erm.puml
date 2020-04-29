@@ -1,154 +1,174 @@
-@startuml
-	right header
-	<font size=24 color=black>Package: <b>BEM_1.1
-	
-	end header
-	
-	title
-	<font size=18 color=black>Аналітичний портал
-	<font size=16 color=black>BE-модель 
-	
-	end title
-
-	entity ProjectPlan
-	entity ProjectPlan.pattern 
-	
-	entity User
-	entity User.name
-	entity User.id
-	entity User.subordinates
-	entity User.supervisor
-
-	entity Access
-
-	entity Role
-	entity Role.name
-	entity Role.description
-
-	entity Task
-	entity Task.id
-	entity Task.creator
-	entity Task.performer
-	entity Task.reviewer
-	entity Task.state
-
-	entity Report
-	entity Report.taskID
-	entity Report.body
-	entity Report.attachments
-
-	entity Database 
-	entity Database.workers 
-	entity Database.tasks
-
-	ProjectPlan.pattern -r-* ProjectPlan
-
-	Task.id -d-* Task
-	Task.creator -d-* Task
-	Task.performer -u-* Task
-	Task.reviewer -d-* Task
-	Task.state -r-* Task
-	Report --* Task
-
-	Report.taskID --* Report
-	Report.body --* Report
-	Report.attachments --* Report
-
-	Database.tasks --* Database
-	Database.workers --* Database
-	
-	User.name --* User
-	User.id --* User
-	User.subordinates --* User
-	User.supervisor --* User
-
-	Role.name --* Role
-	Role.description --* Role
-
-	Task "0,*"-l- "1,1" Database.tasks
-
-	Database.workers "1,1"-d- "0,*" User
-
-	Role "1,1"-r- "0,*" Access
-
-	Access -- ProjectPlan
-
-	User "1,1"-- "0,*" Access
-
-	Access "0,*"-u- "1,1" Database
-		
-	right footer
-	
-	НТУУ КПІ ім.І.Сікорського
-	Киів-2020 
-	end footer
-@enduml
-
-@startuml
-	right header
-	<font size=24 color=black>Package: <b>ERM_1.1
-	
-	end header
-	
-	title
-	<font size=18 color=black>Аналітичний портал
-	<font size=16 color=black>ER-модель 
-	
-	end title
-	
-	entity ProjectPlan {
-		pattern: HTML
-	}
-
-	entity Task {
-		id: int
-		creator: User
-		performer: User
-		reviewer: User
-		state: enum
-		report: Report
-	}
-
-	entity Report {
-		taskID: int
-		body: str
-		attachments: file
-	}
-	
-	entity User {
-		name: str
-		id: int
-		subordinates: [User]
-		supervisor: User
-	}
-
-	entity Role {
-		name: str
-		description: str
-	}
-	
-	entity Access {
-	}
-	
-	entity Database {
-		workers: [User]
-		tasks: [Task]
-	}
-
-	Report --> Task
-	
-	Access "0,*"-- "1,1" Role
-	Access "0,*"-- "1,1" User
-	Access "0,*"-- "1,1" Database
-
-	Database "1,*"-r- "0,*" User
-	Database "1,*"-u- "0,*" Task
-
-	ProjectPlan -- Access
-
-	right footer
-	
-	НТУУ КПІ ім.І.Сікорського
-	Киів-2020 
-	end footer
+@startuml 
+ right header 
+ <font size=24 color=black>Package: <b>BEM_1.1 
+  
+ end header 
+  
+ title 
+ <font size=18 color=black>Аналітичний портал 
+ <font size=16 color=black>BE-модель  
+  
+ end title 
+ 
+ entity ProjectPlan 
+ entity ProjectPlan.pattern  
+  
+ entity User 
+ entity User.name 
+ entity User.id 
+ entity User.subordinates 
+ entity User.supervisor 
+ 
+ entity Access 
+ 
+ entity Role 
+ entity Role.name 
+ entity Role.description 
+ 
+ entity Task 
+ entity Task.id 
+ entity Task.creator 
+ entity Task.performer 
+ entity Task.reviewer 
+ entity Task.state 
+ 
+ entity Report 
+ entity Report.taskID 
+ entity Report.body 
+ entity Report.attachments 
+ 
+ entity Database  
+ entity Database.workers  
+ entity Database.tasks 
+ 
+ ProjectPlan.pattern -r-* ProjectPlan 
+ 
+ Task.id -d-* Task 
+ Task.creator -d-* Task 
+ Task.performer -u-* Task 
+ Task.reviewer -d-* Task 
+ Task.state -r-* Task 
+ Report --* Task 
+ 
+ Report.taskID --* Report 
+ Report.body --* Report 
+ Report.attachments --* Report 
+ 
+ Database.tasks --* Database 
+ Database.workers --* Database 
+  
+ User.name --* User 
+ User.id --* User 
+ User.subordinates --* User 
+ User.supervisor --* User 
+ 
+ Role.name --* Role 
+ Role.description --* Role 
+ 
+ Task "0,*"-l- "1,1" Database.tasks 
+ 
+ Database.workers "1,1"-d- "0,*" User 
+ 
+ Role "1,1"-r- "0,*" Access 
+ 
+ Access -- ProjectPlan 
+ 
+ User "1,1"-- "0,*" Access 
+ 
+ Access "0,*"-u- "1,1" Database 
+   
+ right footer 
+  
+ НТУУ КПІ ім.І.Сікорського 
+ Киів-2020  
+ end footer 
+@enduml 
+ 
+@startuml 
+right header 
+<font size=24 color=black>Package: <b>ERM_1.1 
+ 
+end header 
+ 
+title 
+<font size=18 color=black>Аналітичний портал 
+<font size=16 color=black>ER-модель  
+ 
+end title 
+ 
+entity Project { 
+} 
+ 
+entity Project_Property { 
+ key 
+ value 
+} 
+ 
+Project_Property "0,*"-->"1,1" Project 
+ 
+entity Task { 
+} 
+ 
+entity Task_Property { 
+ key 
+ value 
+} 
+ 
+ 
+Task_Property "0,*"--> "1,1" Task 
+ 
+Task "0,*" -- "1,1" Project 
+ 
+entity State { 
+} 
+ 
+entity Event{ 
+ date 
+} 
+ 
+entity Worker { 
+ name 
+ id 
+} 
+ 
+ 
+Event "0,*" -- "1,1" Task 
+Event "0,*" -- "1,1" State 
+Event "0,*" -- "1,1 +Initiator" Worker   
+ 
+entity Association { 
+} 
+ 
+ 
+entity Role { 
+ name 
+ description 
+} 
+ 
+Association "0,*" -u-> "1,1" Task 
+Association "0,*" --> "1,1" Worker 
+Association "0,*" --> "1,1" Role 
+ 
+entity Report { 
+} 
+ 
+entity Report_Property { 
+ key 
+ value 
+} 
+ 
+Report_Property "0,*"--> "1,1" Report 
+ 
+ 
+ 
+ 
+Report --> Task 
+ 
+ 
+ 
+right footer 
+ 
+НТУУ КПІ ім.І.Сікорського 
+Киів-2020  
+end footer 
 @enduml
