@@ -111,7 +111,7 @@ DROP TABLE IF EXISTS `project_management_system_v2`.`Event` ;
 
 CREATE TABLE IF NOT EXISTS `project_management_system_v2`.`Event` (
   `id` INT UNSIGNED NOT NULL,
-  `date` TIMESTAMP NULL DEFAULT CURRENT_TIMESTAMP,
+  `date` TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `Task_id` INT UNSIGNED NOT NULL,
   `State_id` INT UNSIGNED NOT NULL,
   `Worker_id` INT UNSIGNED NOT NULL,
